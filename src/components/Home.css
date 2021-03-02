@@ -1,0 +1,147 @@
+.product {
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-bottom: 30px;
+  border: 1px solid transparent;
+  width: 23%;
+  margin-top: 66px;
+  transition: all 0.3s ease-in-out;
+}
+.product:hover {
+  border: 1px solid #eee;
+}
+.product img {
+  width: 100%;
+}
+.size-filter {
+  width: 25%;
+  margin-left: 180px;
+  margin-top: 66px;
+}
+.product-section {
+  width: 75%;
+}
+hr {
+  width: 10%;
+  margin: 0 auto;
+  height: 2px;
+  background-color: yellow;
+  border: none;
+  margin: 10px auto;
+}
+
+.product-cart {
+  position: relative;
+}
+.product-text {
+  text-align: center;
+  height: 120px;
+}
+.quantity {
+  opacity: 0.4;
+}
+.style {
+  opacity: 0.4;
+}
+
+.shipping {
+  position: absolute;
+  color: #ececec;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  font-size: 0.6em;
+  background-color: #1b1a20;
+  cursor: default;
+}
+.top-bar {
+  position: absolute;
+  right: 130px;
+  margin-bottom: 20px;
+}
+.numberOfProduct {
+  font-weight: 100;
+  margin-top: 10px;
+}
+.installment {
+  font-size: bold;
+  opacity: 0.5;
+}
+.addtocart {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.addtocart:hover {
+  background-color: #eabf00;
+}
+.close {
+  padding: 15px;
+  font-size: 1.5rem;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 66px;
+  min-width: 450px;
+  height: 100%;
+  background-color: #1b1a20;
+  box-sizing: border-box;
+  height: 80px;
+  cursor: pointer;
+}
+.bag-header {
+  position: absolute;
+  background-color: #000;
+  background-size: 50%;
+  right: 0px;
+  width: 60px;
+  top: 0px;
+  height: 60px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 3;
+}
+.bag {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADdcAAA3XAUIom3gAAAAHdElNRQfiCwwQEgYn7+gWAAABQklEQVRIx9WTsUoDQRRF72xMYSFokcRCjBFESGWRwtZe8AtEFFNrI1bB0tLGQuzs/AJB8AO2kZRCxBiRQNKIoIYoyLFwCZuss9nNgpBXzc7be3j3zow09mU48321zVF8gNtbZ5Q1UwmGYQPIxFU5vnVdUuHfARO+OD5oa9GzM6NcbICkem+CLZ0kA1zKHQ2w6tlpqRUN4AwA5knFiTAISGsuHqDfwoOkgp4kUkoP1WI+Azt02ZYk9hle3cAEBh69c7iKEOJ30IJU/71KpqbaKCH6b0LEGgTcaYXpeIj+GJf54pyI70CSTACxq1M5ehmqvDCHfwIkFrQW4S1WzXUCq+E5lNhkMqSfo0ze3t7hlWeqIfJ3GnQo2n644ZhZYMnSL9OQcKnYAHs0ueUeY+nn6eDyRskGcFjngGxIBkUqVvk41g+oBJ136GBf8AAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0xMS0xMlQxNjoxODowNiswMTowMEVm3zEAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTgtMTEtMTJUMTY6MTg6MDYrMDE6MDA0O2eNAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAABJRU5ErkJggg==);
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  background-size: contain;
+  background-position: 50%;
+  text-align: center;
+  padding: 20px;
+  font-size: bold;
+  position: relative;
+}
+
+.total {
+  color: white;
+}
+.bag__quantity {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  color: #0c0b10;
+  font-weight: 700;
+  font-size: 0.7em;
+  text-align: center;
+  line-height: 18px;
+  border-radius: 50%;
+  background-color: #eabf00;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+.header-title {
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+}
