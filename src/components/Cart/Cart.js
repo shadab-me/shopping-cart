@@ -77,7 +77,9 @@ function Cart(props) {
           className="checkout"
           onClick={() =>
             alert(
-              " Oder Of $ " + totalPrice(props.products) + "Successfully Placed"
+              " Order Of $ " +
+                totalPrice(props.products) +
+                "Successfully Placed"
             )
           }
         >

@@ -1,9 +1,10 @@
 import React from "react";
-import Sidebar from "./Sidebar";
-import products from "../config/data.json";
+import Sidebar from "../Sidebar/Sidebar";
+import products from "../../config/data.json";
 import "./Home.css";
-import Cart from "./Cart";
-import Topbar from "./Topbar";
+import Cart from "../Cart/Cart";
+import Topbar from "../Topbar/Topbar";
+
 class Home extends React.Component {
   constructor(props) {
     super(props);

@@ -1,5 +1,4 @@
 import "./Sidebar.css";
-import products from "../config/data.json";
 
 function clickHandler(cb, size) {
   cb(size);
