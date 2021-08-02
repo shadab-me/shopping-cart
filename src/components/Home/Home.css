@@ -83,20 +83,19 @@ hr {
 .addtocart:hover {
   background-color: #eabf00;
 }
+
 .close {
   padding: 15px;
   font-size: 1.5rem;
-  color: white;
   position: fixed;
-  top: 0;
-  right: 66px;
-  min-width: 450px;
-  height: 100%;
-  background-color: #1b1a20;
-  box-sizing: border-box;
+  left: -30px;
+  min-width: 80px;
   height: 80px;
-  cursor: pointer;
+  box-sizing: border-box;
+  background-color: #0c0b10;
+  color: white;
 }
+
 .bag-header {
   position: absolute;
   background-color: #000;

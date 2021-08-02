@@ -9,6 +9,7 @@ function Cart(props) {
   return (
     <div className="cart">
       <div class="float-cart__header">
+        <h1 className="close">Close</h1>
         <span class="bag">
           <span class="bag__quantity">
             {props.products.reduce((acc, pro) => (acc += pro.quantity), 0)}
@@ -77,7 +78,9 @@ function Cart(props) {
           className="checkout"
           onClick={() =>
             alert(
-              " Oder Of $ " + totalPrice(props.products) + "Successfully Placed"
+              " Order Of $ " +
+                totalPrice(props.products) +
+                "Successfully Placed"
             )
           }
         >
